@@ -22,6 +22,34 @@
 		E81CF6F519344C560024C6DF /* GalleryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF6F419344C560024C6DF /* GalleryTests.m */; };
 		E81CF70019344E920024C6DF /* GAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF6FF19344E920024C6DF /* GAHomeViewController.m */; };
 		E81CF70119344E920024C6DF /* GAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF6FF19344E920024C6DF /* GAHomeViewController.m */; };
+		E81CF704193452A30024C6DF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81CF703193452A30024C6DF /* MapKit.framework */; };
+		E81CF707193455020024C6DF /* GAGalleryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF706193455020024C6DF /* GAGalleryListViewController.m */; };
+		E81CF708193455020024C6DF /* GAGalleryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF706193455020024C6DF /* GAGalleryListViewController.m */; };
+		E81CF70B1934567B0024C6DF /* GAStartUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF70A1934567B0024C6DF /* GAStartUpViewController.m */; };
+		E81CF70C1934567B0024C6DF /* GAStartUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF70A1934567B0024C6DF /* GAStartUpViewController.m */; };
+		E81CF711193476670024C6DF /* GAGalleryDataFetchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF710193476670024C6DF /* GAGalleryDataFetchModel.m */; };
+		E81CF712193476670024C6DF /* GAGalleryDataFetchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF710193476670024C6DF /* GAGalleryDataFetchModel.m */; };
+		E81CF71619347C9B0024C6DF /* GAMainModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E81CF71419347C9B0024C6DF /* GAMainModel.xcdatamodeld */; };
+		E81CF71719347C9B0024C6DF /* GAMainModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E81CF71419347C9B0024C6DF /* GAMainModel.xcdatamodeld */; };
+		E81CF72A19347F240024C6DF /* GACoreDataWriterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF72919347F240024C6DF /* GACoreDataWriterManager.m */; };
+		E81CF72B19347F240024C6DF /* GACoreDataWriterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF72919347F240024C6DF /* GACoreDataWriterManager.m */; };
+		E81CF72D19347FE60024C6DF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81CF72C19347FE60024C6DF /* CoreData.framework */; };
+		E81CF731193483010024C6DF /* GAGalleryMO+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF730193483010024C6DF /* GAGalleryMO+Addition.m */; };
+		E81CF732193483010024C6DF /* GAGalleryMO+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF730193483010024C6DF /* GAGalleryMO+Addition.m */; };
+		E81CF736193483F50024C6DF /* NSDictionary+FetchObjectWithType.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF735193483F50024C6DF /* NSDictionary+FetchObjectWithType.m */; };
+		E81CF737193483F50024C6DF /* NSDictionary+FetchObjectWithType.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF735193483F50024C6DF /* NSDictionary+FetchObjectWithType.m */; };
+		E81CF73A193488EA0024C6DF /* GAGalleryMO.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF739193488EA0024C6DF /* GAGalleryMO.m */; };
+		E81CF73B193488EA0024C6DF /* GAGalleryMO.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF739193488EA0024C6DF /* GAGalleryMO.m */; };
+		E81CF73E193488EB0024C6DF /* GAArtItemMO.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF73D193488EB0024C6DF /* GAArtItemMO.m */; };
+		E81CF73F193488EB0024C6DF /* GAArtItemMO.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF73D193488EB0024C6DF /* GAArtItemMO.m */; };
+		E81CF74219348A2B0024C6DF /* GAArtItemMO+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF74119348A2B0024C6DF /* GAArtItemMO+Addition.m */; };
+		E81CF74319348A2B0024C6DF /* GAArtItemMO+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF74119348A2B0024C6DF /* GAArtItemMO+Addition.m */; };
+		E81CF746193494910024C6DF /* GAGalleriesTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF745193494910024C6DF /* GAGalleriesTableViewDataSource.m */; };
+		E81CF747193494910024C6DF /* GAGalleriesTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF745193494910024C6DF /* GAGalleriesTableViewDataSource.m */; };
+		E81CF74E193499EE0024C6DF /* GAArtItemsDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF74D193499EE0024C6DF /* GAArtItemsDisplayViewController.m */; };
+		E81CF74F193499EE0024C6DF /* GAArtItemsDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF74D193499EE0024C6DF /* GAArtItemsDisplayViewController.m */; };
+		E81CF75219349B1A0024C6DF /* GAArtItemCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF75119349B1A0024C6DF /* GAArtItemCollectionCell.m */; };
+		E81CF75319349B1A0024C6DF /* GAArtItemCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF75119349B1A0024C6DF /* GAArtItemCollectionCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +82,33 @@
 		E81CF6F419344C560024C6DF /* GalleryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalleryTests.m; sourceTree = "<group>"; };
 		E81CF6FE19344E920024C6DF /* GAHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAHomeViewController.h; sourceTree = "<group>"; };
 		E81CF6FF19344E920024C6DF /* GAHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAHomeViewController.m; sourceTree = "<group>"; };
+		E81CF703193452A30024C6DF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E81CF705193455020024C6DF /* GAGalleryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAGalleryListViewController.h; sourceTree = "<group>"; };
+		E81CF706193455020024C6DF /* GAGalleryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAGalleryListViewController.m; sourceTree = "<group>"; };
+		E81CF7091934567B0024C6DF /* GAStartUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAStartUpViewController.h; sourceTree = "<group>"; };
+		E81CF70A1934567B0024C6DF /* GAStartUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAStartUpViewController.m; sourceTree = "<group>"; };
+		E81CF70F193476670024C6DF /* GAGalleryDataFetchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAGalleryDataFetchModel.h; sourceTree = "<group>"; };
+		E81CF710193476670024C6DF /* GAGalleryDataFetchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAGalleryDataFetchModel.m; sourceTree = "<group>"; };
+		E81CF71519347C9B0024C6DF /* GAMainModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GAMainModel.xcdatamodel; sourceTree = "<group>"; };
+		E81CF72819347F240024C6DF /* GACoreDataWriterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GACoreDataWriterManager.h; sourceTree = "<group>"; };
+		E81CF72919347F240024C6DF /* GACoreDataWriterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GACoreDataWriterManager.m; sourceTree = "<group>"; };
+		E81CF72C19347FE60024C6DF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E81CF72F193483010024C6DF /* GAGalleryMO+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GAGalleryMO+Addition.h"; sourceTree = "<group>"; };
+		E81CF730193483010024C6DF /* GAGalleryMO+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GAGalleryMO+Addition.m"; sourceTree = "<group>"; };
+		E81CF734193483F50024C6DF /* NSDictionary+FetchObjectWithType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+FetchObjectWithType.h"; sourceTree = "<group>"; };
+		E81CF735193483F50024C6DF /* NSDictionary+FetchObjectWithType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FetchObjectWithType.m"; sourceTree = "<group>"; };
+		E81CF738193488EA0024C6DF /* GAGalleryMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAGalleryMO.h; sourceTree = "<group>"; };
+		E81CF739193488EA0024C6DF /* GAGalleryMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAGalleryMO.m; sourceTree = "<group>"; };
+		E81CF73C193488EB0024C6DF /* GAArtItemMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAArtItemMO.h; sourceTree = "<group>"; };
+		E81CF73D193488EB0024C6DF /* GAArtItemMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAArtItemMO.m; sourceTree = "<group>"; };
+		E81CF74019348A2B0024C6DF /* GAArtItemMO+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GAArtItemMO+Addition.h"; sourceTree = "<group>"; };
+		E81CF74119348A2B0024C6DF /* GAArtItemMO+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GAArtItemMO+Addition.m"; sourceTree = "<group>"; };
+		E81CF744193494910024C6DF /* GAGalleriesTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAGalleriesTableViewDataSource.h; sourceTree = "<group>"; };
+		E81CF745193494910024C6DF /* GAGalleriesTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAGalleriesTableViewDataSource.m; sourceTree = "<group>"; };
+		E81CF74C193499EE0024C6DF /* GAArtItemsDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAArtItemsDisplayViewController.h; sourceTree = "<group>"; };
+		E81CF74D193499EE0024C6DF /* GAArtItemsDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAArtItemsDisplayViewController.m; sourceTree = "<group>"; };
+		E81CF75019349B1A0024C6DF /* GAArtItemCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAArtItemCollectionCell.h; sourceTree = "<group>"; };
+		E81CF75119349B1A0024C6DF /* GAArtItemCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAArtItemCollectionCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +116,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E81CF72D19347FE60024C6DF /* CoreData.framework in Frameworks */,
+				E81CF704193452A30024C6DF /* MapKit.framework in Frameworks */,
 				E81CF6CC19344C560024C6DF /* CoreGraphics.framework in Frameworks */,
 				E81CF6CE19344C560024C6DF /* UIKit.framework in Frameworks */,
 				E81CF6CA19344C560024C6DF /* Foundation.framework in Frameworks */,
@@ -102,6 +159,8 @@
 		E81CF6C819344C560024C6DF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E81CF72C19347FE60024C6DF /* CoreData.framework */,
+				E81CF703193452A30024C6DF /* MapKit.framework */,
 				E81CF6C919344C560024C6DF /* Foundation.framework */,
 				E81CF6CB19344C560024C6DF /* CoreGraphics.framework */,
 				E81CF6CD19344C560024C6DF /* UIKit.framework */,
@@ -113,8 +172,11 @@
 		E81CF6CF19344C560024C6DF /* Gallery */ = {
 			isa = PBXGroup;
 			children = (
-				E81CF6FE19344E920024C6DF /* GAHomeViewController.h */,
-				E81CF6FF19344E920024C6DF /* GAHomeViewController.m */,
+				E81CF733193483D70024C6DF /* Categories */,
+				E81CF72E193480FE0024C6DF /* Managers */,
+				E81CF71319347C870024C6DF /* CoreData */,
+				E81CF70E1934762A0024C6DF /* Data Models */,
+				E81CF70D193476240024C6DF /* VCs */,
 				E81CF70219344E9B0024C6DF /* App resource */,
 				E81CF6D019344C560024C6DF /* Supporting Files */,
 			);
@@ -159,6 +221,100 @@
 				E81CF6E119344C560024C6DF /* Images.xcassets */,
 			);
 			name = "App resource";
+			sourceTree = "<group>";
+		};
+		E81CF70D193476240024C6DF /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				E81CF749193494A30024C6DF /* Start Up */,
+				E81CF748193494970024C6DF /* List view */,
+				E81CF74A193494AE0024C6DF /* Map Vc */,
+				E81CF74B193499C00024C6DF /* Art Item VC */,
+			);
+			name = VCs;
+			sourceTree = "<group>";
+		};
+		E81CF70E1934762A0024C6DF /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				E81CF70F193476670024C6DF /* GAGalleryDataFetchModel.h */,
+				E81CF710193476670024C6DF /* GAGalleryDataFetchModel.m */,
+			);
+			name = "Data Models";
+			sourceTree = "<group>";
+		};
+		E81CF71319347C870024C6DF /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E81CF71419347C9B0024C6DF /* GAMainModel.xcdatamodeld */,
+				E81CF74019348A2B0024C6DF /* GAArtItemMO+Addition.h */,
+				E81CF74119348A2B0024C6DF /* GAArtItemMO+Addition.m */,
+				E81CF72F193483010024C6DF /* GAGalleryMO+Addition.h */,
+				E81CF730193483010024C6DF /* GAGalleryMO+Addition.m */,
+				E81CF738193488EA0024C6DF /* GAGalleryMO.h */,
+				E81CF739193488EA0024C6DF /* GAGalleryMO.m */,
+				E81CF73C193488EB0024C6DF /* GAArtItemMO.h */,
+				E81CF73D193488EB0024C6DF /* GAArtItemMO.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		E81CF72E193480FE0024C6DF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E81CF72819347F240024C6DF /* GACoreDataWriterManager.h */,
+				E81CF72919347F240024C6DF /* GACoreDataWriterManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		E81CF733193483D70024C6DF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E81CF734193483F50024C6DF /* NSDictionary+FetchObjectWithType.h */,
+				E81CF735193483F50024C6DF /* NSDictionary+FetchObjectWithType.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		E81CF748193494970024C6DF /* List view */ = {
+			isa = PBXGroup;
+			children = (
+				E81CF705193455020024C6DF /* GAGalleryListViewController.h */,
+				E81CF706193455020024C6DF /* GAGalleryListViewController.m */,
+				E81CF744193494910024C6DF /* GAGalleriesTableViewDataSource.h */,
+				E81CF745193494910024C6DF /* GAGalleriesTableViewDataSource.m */,
+			);
+			name = "List view";
+			sourceTree = "<group>";
+		};
+		E81CF749193494A30024C6DF /* Start Up */ = {
+			isa = PBXGroup;
+			children = (
+				E81CF7091934567B0024C6DF /* GAStartUpViewController.h */,
+				E81CF70A1934567B0024C6DF /* GAStartUpViewController.m */,
+			);
+			name = "Start Up";
+			sourceTree = "<group>";
+		};
+		E81CF74A193494AE0024C6DF /* Map Vc */ = {
+			isa = PBXGroup;
+			children = (
+				E81CF6FE19344E920024C6DF /* GAHomeViewController.h */,
+				E81CF6FF19344E920024C6DF /* GAHomeViewController.m */,
+			);
+			name = "Map Vc";
+			sourceTree = "<group>";
+		};
+		E81CF74B193499C00024C6DF /* Art Item VC */ = {
+			isa = PBXGroup;
+			children = (
+				E81CF74C193499EE0024C6DF /* GAArtItemsDisplayViewController.h */,
+				E81CF74D193499EE0024C6DF /* GAArtItemsDisplayViewController.m */,
+				E81CF75019349B1A0024C6DF /* GAArtItemCollectionCell.h */,
+				E81CF75119349B1A0024C6DF /* GAArtItemCollectionCell.m */,
+			);
+			name = "Art Item VC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +415,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E81CF74E193499EE0024C6DF /* GAArtItemsDisplayViewController.m in Sources */,
+				E81CF74219348A2B0024C6DF /* GAArtItemMO+Addition.m in Sources */,
+				E81CF731193483010024C6DF /* GAGalleryMO+Addition.m in Sources */,
 				E81CF6DA19344C560024C6DF /* GAAppDelegate.m in Sources */,
+				E81CF736193483F50024C6DF /* NSDictionary+FetchObjectWithType.m in Sources */,
+				E81CF746193494910024C6DF /* GAGalleriesTableViewDataSource.m in Sources */,
+				E81CF71619347C9B0024C6DF /* GAMainModel.xcdatamodeld in Sources */,
+				E81CF73A193488EA0024C6DF /* GAGalleryMO.m in Sources */,
 				E81CF70019344E920024C6DF /* GAHomeViewController.m in Sources */,
+				E81CF73E193488EB0024C6DF /* GAArtItemMO.m in Sources */,
+				E81CF70B1934567B0024C6DF /* GAStartUpViewController.m in Sources */,
+				E81CF72A19347F240024C6DF /* GACoreDataWriterManager.m in Sources */,
+				E81CF711193476670024C6DF /* GAGalleryDataFetchModel.m in Sources */,
 				E81CF6D619344C560024C6DF /* main.m in Sources */,
+				E81CF75219349B1A0024C6DF /* GAArtItemCollectionCell.m in Sources */,
+				E81CF707193455020024C6DF /* GAGalleryListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,8 +438,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E81CF732193483010024C6DF /* GAGalleryMO+Addition.m in Sources */,
+				E81CF71719347C9B0024C6DF /* GAMainModel.xcdatamodeld in Sources */,
 				E81CF6F519344C560024C6DF /* GalleryTests.m in Sources */,
+				E81CF712193476670024C6DF /* GAGalleryDataFetchModel.m in Sources */,
+				E81CF73B193488EA0024C6DF /* GAGalleryMO.m in Sources */,
+				E81CF75319349B1A0024C6DF /* GAArtItemCollectionCell.m in Sources */,
+				E81CF72B19347F240024C6DF /* GACoreDataWriterManager.m in Sources */,
+				E81CF74F193499EE0024C6DF /* GAArtItemsDisplayViewController.m in Sources */,
+				E81CF74319348A2B0024C6DF /* GAArtItemMO+Addition.m in Sources */,
+				E81CF708193455020024C6DF /* GAGalleryListViewController.m in Sources */,
+				E81CF70C1934567B0024C6DF /* GAStartUpViewController.m in Sources */,
 				E81CF70119344E920024C6DF /* GAHomeViewController.m in Sources */,
+				E81CF73F193488EB0024C6DF /* GAArtItemMO.m in Sources */,
+				E81CF737193483F50024C6DF /* NSDictionary+FetchObjectWithType.m in Sources */,
+				E81CF747193494910024C6DF /* GAGalleriesTableViewDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +661,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E81CF71419347C9B0024C6DF /* GAMainModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E81CF71519347C9B0024C6DF /* GAMainModel.xcdatamodel */,
+			);
+			currentVersion = E81CF71519347C9B0024C6DF /* GAMainModel.xcdatamodel */;
+			path = GAMainModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E81CF6BE19344C560024C6DF /* Project object */;
 }
