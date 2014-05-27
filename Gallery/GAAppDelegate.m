@@ -7,11 +7,20 @@
 //
 
 #import "GAAppDelegate.h"
+#import "GACoreDataWriterManager.h"
 
 @implementation GAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     return YES;
+}
+
+-(void)applicationWillResignActive:(UIApplication *)application {
+    [[GACoreDataWriterManager sharedManager] saveContext];
+}
+
+-(void)applicationWillTerminate:(UIApplication *)application {
+    [[GACoreDataWriterManager sharedManager] saveContext];
 }
 @end

@@ -26,7 +26,11 @@
     NSManagedObjectContext *content = [GACoreDataWriterManager sharedManager].managedObjectContext;
     GAGalleryMO * galleryMO = [GAGalleryMO galleryMOWithID:self.galleryID atContext:content];
     self.frc = [GAArtItemMO fetchedResultsControllerOfArtItemsFor:galleryMO];
-    [self.frc performFetch:NULL];
+    NSError *error = nil;
+    [self.frc performFetch:&error];
+    if (error) {
+        NSLog(@"error %@", error);
+    }
     [self.collectionView reloadData];
 }
 
@@ -56,4 +60,5 @@
     [artItemMO increaseRate];
     [collectionView reloadItemsAtIndexPaths:@[indexPath]];
 }
+
 @end

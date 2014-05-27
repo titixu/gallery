@@ -9,5 +9,10 @@
 #import "GAArtItemCollectionCell.h"
 
 @implementation GAArtItemCollectionCell
-
+-(void)awakeFromNib {
+    [super awakeFromNib];
+    UIView *backgroundView = [[UIView alloc] initWithFrame:self.bounds];
+    backgroundView.backgroundColor = [UIColor blueColor];
+    self.selectedBackgroundView = backgroundView;
+}
 @end

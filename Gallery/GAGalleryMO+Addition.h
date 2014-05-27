@@ -7,6 +7,7 @@
 //
 
 #import "GAGalleryMO.h"
+#import <MapKit/MapKit.h>
 
 @interface GAGalleryMO (Addition)
 
@@ -17,5 +18,7 @@
 +(void)cleanUpDataBaseAtContext:(NSManagedObjectContext *)context;
 
 +(NSFetchedResultsController *)fetchedResultsControllerOfAllGalleriesAtContext:(NSManagedObjectContext *)context;
+
+-(CLLocationCoordinate2D)locationCoordinate2D;
 @end
 

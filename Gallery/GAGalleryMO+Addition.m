@@ -8,7 +8,6 @@
 
 #import "GAGalleryMO+Addition.h"
 #import "GAArtItemMO+Addition.h"
-
 #define entityName @"Gallery"
 
 @implementation GAGalleryMO (Addition)
@@ -92,6 +91,14 @@
     NSFetchedResultsController *frc = [[NSFetchedResultsController alloc] initWithFetchRequest:request managedObjectContext:context sectionNameKeyPath:nil cacheName:nil];
     
     return frc;
+
+}
+
+-(CLLocationCoordinate2D)locationCoordinate2D {
+    CGFloat lon = self.lon.doubleValue;
+    CGFloat lat = self.lat.doubleValue;
+    
+    return CLLocationCoordinate2DMake(lat, lon);
 
 }
 @end

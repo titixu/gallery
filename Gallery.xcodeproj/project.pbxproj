@@ -50,6 +50,8 @@
 		E81CF74F193499EE0024C6DF /* GAArtItemsDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF74D193499EE0024C6DF /* GAArtItemsDisplayViewController.m */; };
 		E81CF75219349B1A0024C6DF /* GAArtItemCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF75119349B1A0024C6DF /* GAArtItemCollectionCell.m */; };
 		E81CF75319349B1A0024C6DF /* GAArtItemCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF75119349B1A0024C6DF /* GAArtItemCollectionCell.m */; };
+		E81CF7561934B08C0024C6DF /* GAPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF7551934B08C0024C6DF /* GAPointAnnotation.m */; };
+		E81CF7571934B08C0024C6DF /* GAPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF7551934B08C0024C6DF /* GAPointAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +111,8 @@
 		E81CF74D193499EE0024C6DF /* GAArtItemsDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAArtItemsDisplayViewController.m; sourceTree = "<group>"; };
 		E81CF75019349B1A0024C6DF /* GAArtItemCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAArtItemCollectionCell.h; sourceTree = "<group>"; };
 		E81CF75119349B1A0024C6DF /* GAArtItemCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAArtItemCollectionCell.m; sourceTree = "<group>"; };
+		E81CF7541934B08C0024C6DF /* GAPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAPointAnnotation.h; sourceTree = "<group>"; };
+		E81CF7551934B08C0024C6DF /* GAPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAPointAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +306,8 @@
 			children = (
 				E81CF6FE19344E920024C6DF /* GAHomeViewController.h */,
 				E81CF6FF19344E920024C6DF /* GAHomeViewController.m */,
+				E81CF7541934B08C0024C6DF /* GAPointAnnotation.h */,
+				E81CF7551934B08C0024C6DF /* GAPointAnnotation.m */,
 			);
 			name = "Map Vc";
 			sourceTree = "<group>";
@@ -426,6 +432,7 @@
 				E81CF70019344E920024C6DF /* GAHomeViewController.m in Sources */,
 				E81CF73E193488EB0024C6DF /* GAArtItemMO.m in Sources */,
 				E81CF70B1934567B0024C6DF /* GAStartUpViewController.m in Sources */,
+				E81CF7561934B08C0024C6DF /* GAPointAnnotation.m in Sources */,
 				E81CF72A19347F240024C6DF /* GACoreDataWriterManager.m in Sources */,
 				E81CF711193476670024C6DF /* GAGalleryDataFetchModel.m in Sources */,
 				E81CF6D619344C560024C6DF /* main.m in Sources */,
@@ -449,6 +456,7 @@
 				E81CF74319348A2B0024C6DF /* GAArtItemMO+Addition.m in Sources */,
 				E81CF708193455020024C6DF /* GAGalleryListViewController.m in Sources */,
 				E81CF70C1934567B0024C6DF /* GAStartUpViewController.m in Sources */,
+				E81CF7571934B08C0024C6DF /* GAPointAnnotation.m in Sources */,
 				E81CF70119344E920024C6DF /* GAHomeViewController.m in Sources */,
 				E81CF73F193488EB0024C6DF /* GAArtItemMO.m in Sources */,
 				E81CF737193483F50024C6DF /* NSDictionary+FetchObjectWithType.m in Sources */,

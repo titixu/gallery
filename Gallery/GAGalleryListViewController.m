@@ -11,6 +11,8 @@
 #import "GAGalleryMO+Addition.h"
 #import "GACoreDataWriterManager.h"
 
+#import "GAArtItemsDisplayViewController.h"
+
 @interface GAGalleryListViewController ()
 @end
 
@@ -27,7 +29,14 @@
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    
+    if ([segue.identifier isEqualToString:@"GAGalleryListSegueIdentifier"]) {
+        UITableViewCell *cell = sender;
+        NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];
+        GAGalleryMO *gallerMO = [self.dataSource.frc objectAtIndexPath:indexPath];
+        
+        GAArtItemsDisplayViewController *vc = segue.destinationViewController;
+        vc.galleryID = gallerMO.galleryID;
+    }
 }
 
 

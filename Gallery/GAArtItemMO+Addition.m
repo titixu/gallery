@@ -32,7 +32,11 @@
     if (!artItemMo) {
         artItemMo = [NSEntityDescription insertNewObjectForEntityForName:entityName inManagedObjectContext:context];
         artItemMo.name = name;
+        artItemMo.rate = @0;
     }
+    
+    artItemMo.belongToGallery = galleryMO;
+    
 }
 
 
