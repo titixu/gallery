@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GAHomeViewController : UIViewController 
+@interface GAHomeViewController : UIViewController <NSFetchedResultsControllerDelegate>
 
 @end
