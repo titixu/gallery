@@ -29,7 +29,7 @@
     
     for (NSInteger i = 0; i<numberOfArtItem.integerValue; i++) {
         //no art info provent with API, create a fake name here
-        NSString *fakeName = [NSString stringWithFormat:@"%@ - %i", galleryID, i];
+        NSString *fakeName = [NSString stringWithFormat:@"%@ - %li", galleryID, (long)i];
         [GAArtItemMO storeWithName:fakeName forGallerMO:galleryMO];
     }
 }

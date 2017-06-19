@@ -52,6 +52,7 @@
 		E81CF75319349B1A0024C6DF /* GAArtItemCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF75119349B1A0024C6DF /* GAArtItemCollectionCell.m */; };
 		E81CF7561934B08C0024C6DF /* GAPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF7551934B08C0024C6DF /* GAPointAnnotation.m */; };
 		E81CF7571934B08C0024C6DF /* GAPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E81CF7551934B08C0024C6DF /* GAPointAnnotation.m */; };
+		E8B80DA21EF769BD00C3FD63 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E8B80DA11EF769BD00C3FD63 /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,7 @@
 		E81CF75119349B1A0024C6DF /* GAArtItemCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAArtItemCollectionCell.m; sourceTree = "<group>"; };
 		E81CF7541934B08C0024C6DF /* GAPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAPointAnnotation.h; sourceTree = "<group>"; };
 		E81CF7551934B08C0024C6DF /* GAPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAPointAnnotation.m; sourceTree = "<group>"; };
+		E8B80DA11EF769BD00C3FD63 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 		E81CF6CF19344C560024C6DF /* Gallery */ = {
 			isa = PBXGroup;
 			children = (
+				E8B80DA11EF769BD00C3FD63 /* data.json */,
 				E81CF733193483D70024C6DF /* Categories */,
 				E81CF72E193480FE0024C6DF /* Managers */,
 				E81CF71319347C870024C6DF /* CoreData */,
@@ -403,6 +406,7 @@
 				E81CF6E219344C560024C6DF /* Images.xcassets in Resources */,
 				E81CF6D419344C560024C6DF /* InfoPlist.strings in Resources */,
 				E81CF6DD19344C560024C6DF /* Main.storyboard in Resources */,
+				E8B80DA21EF769BD00C3FD63 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,6 +663,7 @@
 				E81CF6FA19344C560024C6DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E81CF6FB19344C560024C6DF /* Build configuration list for PBXNativeTarget "GalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -667,6 +672,7 @@
 				E81CF6FD19344C560024C6DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

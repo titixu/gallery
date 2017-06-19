@@ -53,13 +53,13 @@
 - (NSManagedObjectModel *)managedObjectModel
 {
     
-    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"GAMainModel" withExtension:@"mom"];
-    _managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
+    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"GAMainModel" withExtension:@"momd"];
     
-    if (!_managedObjectModel) {
-        modelURL = [[NSBundle mainBundle] URLForResource:@"GAMainModel" withExtension:@"momd"];
-        _managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
+    if (modelURL == nil) {
+        modelURL = [[NSBundle mainBundle] URLForResource:@"GAMainModel" withExtension:@"mom"];
     }
+    
+    _managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
     
     return _managedObjectModel;
 }

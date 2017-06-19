@@ -19,7 +19,7 @@ typedef void(^FinishHandler)(id object);
 -(void)fetchGallerysDataWithFinishHandler:(void(^)(id object))finishHandler {
     self.finishHandler = finishHandler;
     
-    NSURL *url = [NSURL URLWithString:kGAGalleryURLString];
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"data" withExtension:@"json"];
     
     dispatch_async(dispatch_queue_create("GA.galleryDataFetchQueue", NULL), ^{
         
@@ -60,7 +60,6 @@ typedef void(^FinishHandler)(id object);
         }
     }
 
-    
 }
 
 -(void)cancel {

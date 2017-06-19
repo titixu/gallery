@@ -19,5 +19,3 @@
 #import "NSDictionary+FetchObjectWithType.h"
 
 #endif
-
-#define kGAGalleryURLString @"http://www.vivant.com.au/tmp/galleries.json"

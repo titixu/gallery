@@ -83,7 +83,7 @@
 }
 
 -(UIImage *)ratingImage {
-    NSString *imageName =[ NSString stringWithFormat:@"%i_Stars", self.rate.integerValue];
+    NSString *imageName =[ NSString stringWithFormat:@"%li_Stars", (long)self.rate.integerValue];
     UIImage *image =[UIImage imageNamed:imageName];
     return image;
 }

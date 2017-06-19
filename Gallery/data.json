@@ -1,0 +1,54 @@
+{
+   "galleries":[
+      {
+         "address":"13 Campbell Ave",
+         "suburb":"Paddington",
+         "postcode":"2021",
+         "state":"NSW",
+         "id":1,
+         "lat":-33.881443,
+         "lon":151.222912,
+         "piecesofart":10
+      },
+      {
+         "address":"251-253 Elizabeth St",
+         "suburb":"Sydney",
+         "postcode":"2000",
+         "state":"NSW",
+         "id":2,
+         "lat":-33.875368,
+         "lon":151.209426,
+         "piecesofart":3
+      },
+      {
+         "address":"1-7 Belmore St",
+         "suburb":"Surry Hills",
+         "postcode":"2010",
+         "state":"NSW",
+         "id":9,
+         "lat":-33.883207,
+         "lon":151.210842,
+         "piecesofart":6
+      },
+      {
+         "address":"Wishing Well",
+         "suburb":"Sydney",
+         "postcode":"2000",
+         "state":"NSW",
+         "id":4,
+         "lat":-33.864554,
+         "lon":151.215692,
+         "piecesofart":1
+      },
+      {
+         "address":"26-32 Pyrmont Bridge Rd",
+         "suburb":"Pyrmont",
+         "postcode":"2009",
+         "state":"NSW",
+         "id":6,
+         "lat":-33.870638,
+         "lon":151.195285,
+         "piecesofart":5
+      }
+   ]
+}

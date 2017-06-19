@@ -59,7 +59,7 @@
             GAPointAnnotation *point = [[GAPointAnnotation alloc] init];
             point.coordinate = [galleryMO locationCoordinate2D];
             point.title = [NSString stringWithFormat:@"Gallery ID %@", galleryMO.galleryID];
-            point.subtitle = [NSString stringWithFormat:@"Number of art items %i", galleryMO.hasArtItems.count];
+            point.subtitle = [NSString stringWithFormat:@"Number of art items %lu", (unsigned long)galleryMO.hasArtItems.count];
             
             point.galleryID = galleryMO.galleryID;
             
